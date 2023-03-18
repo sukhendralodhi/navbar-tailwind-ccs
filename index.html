@@ -9,8 +9,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-      <div class="border-2 border-red-600 relative">
-        <nav class="flex justify-between px-4 h-12 items-center sm:px-8  hidden">
+      <div id="" class="relative">
+        <nav class="flex justify-between px-4 h-12 items-center sm:px-8">
             <h3 class="text-xl font-bold animate-bounce">Coding<span class="text-orange-600">Addict</span></h3>
 
         <!-- menu list start  -->
@@ -26,19 +26,20 @@
 
 
             <section class="sm:hidden">
-                <img class="w-6 hover:animate-pulse hover:text-orange-600" src="https://cdn4.iconfinder.com/data/icons/essentials-73/24/047_-_Menu-256.png" alt="nav-img">
+                <img id="menu-btn" class="w-6 hover:animate-pulse hover:text-orange-600" src="https://cdn4.iconfinder.com/data/icons/essentials-73/24/047_-_Menu-256.png" alt="nav-img">
             </section>
         </nav>
     </div>
 
         <!-- toggle navigation end -->
-        <section class="w-64 b-gray-400 sm:hidden absolute top-0 left-0 border-2 border-green-600 px-2 h-96">
+        <section id="toggle-menu" class="bg-white w-64 b-gray-400 sm:hidden absolute top-2 left-0 px-2 h-96 shadow-lg">
             <nav class="px-4">
                 <div class="flex justify-between items-center">
-                    <h3 class="text-xl font-bold">Coding<span class="text-orange-600">Addict</span></h3>                  <img  class="w-6 h-6 text-red-400 bg-red-400" src="https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_exit-256.png" alt="">
+                    <h3 class="text-xl font-bold">Coding<span class="text-orange-600">Addict</span></h3>                  
+                    <img id="close-btn"  class="w-6 h-6 text-red-400 bg-red-400" src="https://cdn4.iconfinder.com/data/icons/glyphs/24/icons_exit-256.png" alt="">
                 </div>
 
-                <div class="mt-4 border-2 border-blue-400">
+                <div class="mt-4">
                     <ul class="flex flex-col">
                         <li class="w-24 text-xl py-2 font-bold hover:text-orange-600"><a href="#">Home</a></li>
                         <li class="w-24 text-xl py-2 font-bold hover:text-orange-600"><a href="#">Project</a></li>
