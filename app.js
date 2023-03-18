@@ -10,3 +10,5 @@ menuBtn.addEventListener('click', ()=> {
 closeBtn.addEventListener('click', ()=> {
     toggleMenu.style.display = "none";
 });
+
+toggleMenu.style.display = "none";
